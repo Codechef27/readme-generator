@@ -54,5 +54,5 @@
 
   ## Screenshots
 
-  [readme-generator image1](./assets/videos%20and%20images/Screenshot%20(17).png)
-  [readme-generator image2](./assets/videos%20and%20images/Screenshot%20(18).png)
+  ![image1](./assets/videos%20and%20images/Screenshot%20(17).png)
+  ![image2](./assets/videos%20and%20images/Screenshot%20(18).png)
