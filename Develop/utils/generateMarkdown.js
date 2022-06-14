@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license === 'other' || 'none') {
-    return '';
+    return "";
   }else {
     return `[![Badge](https://img.shields.io/badge-${license}&success)]`
   }
@@ -27,27 +27,86 @@ function renderLicenseLink(license) {
     return 'No License';
   }
   else {
-    return '';
+    return "";
   }
 
 
 
-}
-'MIT',
-'APACHE 2.0',
-'GNU GPL 3.0',
-'ISC',
-'Other',
-'none'
+};
+// 'MIT',
+// 'APACHE 2.0',
+// 'GNU GPL 3.0',
+// 'ISC',
+// 'Other',
+// 'none'
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+
+  if(license === 'MIT') {
+    return `[license](https://choosealicense.com/licenses/mit/)`;
+  }
+  if(license === 'APACHE 2.0'){
+    return `[license](https://choosealicense.com/licenses/apache-2.0)`;
+  }
+  if(license === 'GNU GPL 3.0') {
+    return `[license](https://choosealicense.com/licenses/gpl-3.0/)`;
+  }
+  if(license === 'ISC') {
+    return `[license](https://choosealicense.com/licenses/isc/)`;
+  }
+  else if (license === 'none') {
+    return 'No License';
+  }
+  else {
+    return "";
+  }
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  
+  # ${data.title}
 
+  ## License 
+
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
+  
+  ## Table of Contents
+
+  [Description](#description),
+  [Installation](#installation),
+  [Languages](#languages),
+  [Usage](#usage),
+  [Contribution](#contribution)
+  [Test](#test))
+  [Questions](#questions),
+
+  ## Description
+  ${data.description}
+
+  ## Languages Used
+  ${data.languages}
+
+  ## Usage 
+  ${data.usage}
+
+  ##Install Instructions
+  ${data.installation}
+
+  ## Tests
+  ${data.test}
+
+  ## Contributing
+  ${data.contribution}
+
+  ## Questions
+  Github Account:[${data.github}](https://github.com/${data.github})
+  Email Me: ${data.email}
 `;
 }
 
