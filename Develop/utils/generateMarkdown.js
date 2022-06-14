@@ -54,7 +54,7 @@ function renderLicenseSection(license) {
   } else {
     return `## License 
 
-    Licensed by ${renderLicenseLink(license)}`
+   * Licensed by ${renderLicenseLink(license)}`
 
   }
 };
@@ -69,15 +69,15 @@ function generateMarkdown(data) {
 
   * ${renderLicenseBadge(data.license)}
   
-  * ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
 
   ## Table of Contents
 
   - [Description](#description)
-  - [Installation](#installation)
-  - [Languages](#languages)
+  - [Installation](#install-instructions)
+  - [Languages](#languages-used)
   - [Usage](#usage)
-  - [Contribution](#contribution)
+  - [Contribution](#contributing)
   - [Test](#test)
   - [Questions](#questions)
 
