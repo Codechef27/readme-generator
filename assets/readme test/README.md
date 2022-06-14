@@ -2,12 +2,12 @@
 
   
   
-  # readme-generator
+  # Readme-Generator
 
 
   ## License 
 
-Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
+    Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
 
   ## Table of Contents
 
@@ -21,7 +21,7 @@ Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
 
   ## Description
 
-  creates a readme file
+  Prompts the user with a series of questions to create a proffesional readme
 
   ## Languages Used
 
@@ -29,11 +29,11 @@ Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
 
   ## Usage 
 
-  used to create a professional readme file
+  used to create a professional readme file for a repo
 
   ## Install Instructions
 
-  clone the repo, open the code and run node.js in the terminal
+  clone the repo, navigate to the files in your code editor and run node index in the terminal
 
   ## Tests
 
@@ -41,11 +41,11 @@ Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
 
   ## Contributing
 
-  bradley kennett
+  Bradley Kennett
 
   ## Questions
 
   Contact Me!
 
-  * Github Account:  [codechef27](https://github.com/codechef27)
+  * Github Account:  [Codechef27](https://github.com/Codechef27)
   * Email Me:  bradleyjkennett@gmail.com
