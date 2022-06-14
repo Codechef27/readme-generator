@@ -6,8 +6,8 @@
 
 
   ## License 
-    
-    Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
+
+Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
 
   ## Table of Contents
 
@@ -21,19 +21,19 @@
 
   ## Description
 
-  user is prompt with questions about their project to create a readme file
+  creates a readme file
 
   ## Languages Used
 
-  Javascript,Other
+  Javascript
 
   ## Usage 
 
-  It is used to create a proffesional readme file
+  used to create a professional readme file
 
   ## Install Instructions
 
-  clone the repo, navigate to the cooresponding file and run the app in the terminal
+  clone the repo, open the code and run node.js in the terminal
 
   ## Tests
 
@@ -41,11 +41,11 @@
 
   ## Contributing
 
-  bradley j kennett
+  bradley kennett
 
   ## Questions
 
   Contact Me!
 
-  * Github Account:[Codechef27](https://github.com/Codechef27)
-  * Email Me: bradleyjkennett@gmail.com
+  * Github Account:  [codechef27](https://github.com/codechef27)
+  * Email Me:  bradleyjkennett@gmail.com
