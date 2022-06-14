@@ -1,27 +1,26 @@
 
 
-  
-  
   # Readme-Generator
 
+  * ![License:](https://img.shields.io/badge/license-MIT-success)
+  
+  * ## License 
 
-  ## License 
-
-    Licensed by [license](https://choosealicense.com/licenses/apache-2.0)
+    Licensed by [MIT License](https://choosealicense.com/licenses/mit/)
 
   ## Table of Contents
 
-  - [Description](#description),
-  - [Installation](#installation),
-  - [Languages](#languages),
-  - [Usage](#usage),
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Languages](#languages)
+  - [Usage](#usage)
   - [Contribution](#contribution)
-  - [Test](#test))
-  - [Questions](#questions),
+  - [Test](#test)
+  - [Questions](#questions)
 
   ## Description
 
-  Prompts the user with a series of questions to create a proffesional readme
+  Propmts the user with a series of questions to generate a README.md file
 
   ## Languages Used
 
@@ -29,11 +28,11 @@
 
   ## Usage 
 
-  used to create a professional readme file for a repo
+  A user can generate a professional README.md file
 
   ## Install Instructions
 
-  clone the repo, navigate to the files in your code editor and run node index in the terminal
+  clone the repo, navigate to the files and run in the terminal with node.js
 
   ## Tests
 
